@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Datasets & archives
+datasets/
+corrosion_dataset/
+training_workspace/
+*.zip
+
+# Intermediate training checkpoints (keeps best.pt, last.pt)
+**/weights/epoch*.pt
